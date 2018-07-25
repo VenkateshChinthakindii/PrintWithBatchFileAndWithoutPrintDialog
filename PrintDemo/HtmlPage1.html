@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        @media all {
+            .page-break {
+                display: none;
+            }
+        }
+
+        @media print {
+            header nav, footer {
+                display: none;
+            }
+
+            .page-break {
+                display: block;
+                page-break-before: always;
+            }
+
+            a[href]:after {
+                <!-- content: none !important; -->
+				display: none;
+      visibility: hidden;
+            }
+
+            img[src]:after {
+                content: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    Yes print this content
+    Yes print this content
+    Yes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this content
+    Yes print this content
+    Yes print this content
+    Yes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this content
+    Yes print this content
+    Yes print this content
+    Yes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this content
+    Yes print this content
+    Yes print this content
+    Yes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this content
+    Yes print this content
+    Yes print this content
+    Yes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this content
+    Yes print this content
+    Yes print this content
+    Yes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this content
+    Yes print this content
+    Yes print this content
+    Yes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this contentYes print this content
+    Print this div default
+    <div id="printable1" class="page-break" style="background-color: pink">
+        Print this div 1
+    </div>
+    <div id="printable2" class="page-break" style="background-color: pink">
+        Print this div 2
+    </div>
+</body>
+</html>

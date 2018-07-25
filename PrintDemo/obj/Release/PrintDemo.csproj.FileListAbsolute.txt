@@ -1,0 +1,5 @@
+E:\Practice\PrintDemo\PrintDemo\bin\PrintDemo.dll.config
+E:\Practice\PrintDemo\PrintDemo\bin\PrintDemo.dll
+E:\Practice\PrintDemo\PrintDemo\bin\PrintDemo.pdb
+E:\Practice\PrintDemo\PrintDemo\obj\Release\PrintDemo.dll
+E:\Practice\PrintDemo\PrintDemo\obj\Release\PrintDemo.pdb

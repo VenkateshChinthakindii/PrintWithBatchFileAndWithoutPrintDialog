@@ -1,0 +1,11 @@
+E:\Practice\PrintDemo\PrintDemo\bin\PrintDemo.dll.config
+E:\Practice\PrintDemo\PrintDemo\bin\PrintDemo.dll
+E:\Practice\PrintDemo\PrintDemo\bin\PrintDemo.pdb
+E:\Practice\PrintDemo\PrintDemo\obj\Debug\PrintDemo.csprojResolveAssemblyReference.cache
+E:\Practice\PrintDemo\PrintDemo\obj\Debug\PrintDemo.dll
+E:\Practice\PrintDemo\PrintDemo\obj\Debug\PrintDemo.pdb
+E:\Practice\PrintDemo\PrintDemo\bin\Interop.InteropExtensionLib.dll
+E:\Practice\PrintDemo\PrintDemo\bin\Interop.SHDocVw.dll
+E:\Practice\PrintDemo\PrintDemo\obj\Debug\Interop.InteropExtensionLib.dll
+E:\Practice\PrintDemo\PrintDemo\obj\Debug\Interop.SHDocVw.dll
+E:\Practice\PrintDemo\PrintDemo\obj\Debug\PrintDemo.csproj.ResolveComReference.cache
