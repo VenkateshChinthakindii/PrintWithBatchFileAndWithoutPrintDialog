@@ -3,3 +3,8 @@ E:\Practice\PrintDemo\PrintDemo\bin\PrintDemo.dll
 E:\Practice\PrintDemo\PrintDemo\bin\PrintDemo.pdb
 E:\Practice\PrintDemo\PrintDemo\obj\Release\PrintDemo.dll
 E:\Practice\PrintDemo\PrintDemo\obj\Release\PrintDemo.pdb
+E:\Practice\PrintDemo\PrintDemo\bin\Interop.InteropExtensionLib.dll
+E:\Practice\PrintDemo\PrintDemo\bin\Interop.SHDocVw.dll
+E:\Practice\PrintDemo\PrintDemo\obj\Release\Interop.InteropExtensionLib.dll
+E:\Practice\PrintDemo\PrintDemo\obj\Release\Interop.SHDocVw.dll
+E:\Practice\PrintDemo\PrintDemo\obj\Release\PrintDemo.csproj.ResolveComReference.cache

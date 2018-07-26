@@ -134,7 +134,17 @@ namespace PrintDemo
         //}
         protected void Page_Load(object sender, EventArgs e)
         {
-            getAttachment();
+            //ProcessStartInfo info = new ProcessStartInfo();
+            //info.Verb = "print";            
+            //info.FileName = @"E:\Practice\PrintFilesDi\Recent changes sp.docx";
+            //info.CreateNoWindow = true;
+            //info.WindowStyle = ProcessWindowStyle.Hidden;
+
+            //Process p = new Process();
+            //p.StartInfo = info;
+            //p.Start();
+
+            //getAttachment();
             PrinterSettings pSett = new PrinterSettings();
             if (pSett.PrinterName != null)
             {
@@ -142,20 +152,24 @@ namespace PrintDemo
                 {
                     if (printerName.ToLower() == "\\\\inhydprintsrv01\\printerzone_1")
                     {
-
                         Process myProcess = new Process();
+                        myProcess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                         myProcess.StartInfo.FileName = Server.MapPath("~/batchFile.bat");
+                        myProcess.StartInfo.Arguments = String.Format("{0} {1} {2}", @"\\inhydprintsrv01\printerzone_1", @"E:\Practice\PrintFilesDi", @"E:\Practice\PrintDemo\PrintDemo\printjs.bat");
                         //myProcess.StartInfo.Verb = "Print";
                         myProcess.StartInfo.CreateNoWindow = true;
+                        myProcess.StartInfo.UseShellExecute = false;
                         myProcess.EnableRaisingEvents = true;
                         myProcess.Exited += new EventHandler(myProcess_Exited);
                         myProcess.Start();
+                        //myProcess.WaitForExit();
+                        //int a = myProcess.ExitCode;
                     }
                 }
             }
 
             //To print html pages without dialog box
-            Print(HttpContext.Current.Server.MapPath("~/HtmlPage1.html"));
+            // Print(HttpContext.Current.Server.MapPath("~/HtmlPage1.html"));
 
             #region Old code commented
             //FileStream fs = null;

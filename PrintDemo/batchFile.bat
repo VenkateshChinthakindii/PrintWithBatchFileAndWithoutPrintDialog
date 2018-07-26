@@ -1,5 +1,6 @@
 @echo off
-pushd "E:\Practice\PrintFilesDi"
-for %%a in (*.pdf *.docx *.txt *.xlsx *.xls) do (
-   call E:\Practice\PrintDemo\PrintDemo\printjs.bat "%%~fa"  
+RUNDLL32 PRINTUI.DLL,PrintUIEntry /y /n %1
+pushd %2
+for %%a in (*.pdf *.doc) do (
+   call %3 "%%~fa"
 )
